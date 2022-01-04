@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>monaco</id>
+    <version>1.6.0</version>
+    <owners>Hamza Yahaya</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>monaco</title>
+    <authors>Dynatrace</authors>
+    <projectUrl>https://dynatrace-oss.github.io/dynatrace-monitoring-as-code</projectUrl>
+    <docsUrl>https://dynatrace-oss.github.io/dynatrace-monitoring-as-code/installation</docsUrl>
+    <bugTrackerUrl>https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/dynatrace-oss/dynatrace-monitoring-as-code</projectSourceUrl>
+    <packageSourceUrl>https://github.com/cruzancaramele/chocolatey-packages</packageSourceUrl>
+    <tags>monaco</tags>
+    <licenseUrl>https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>monaco is a tool for automating the deployment process of Dynatrace Monitoring Configuration to one or multiple Dynatrace environments.</summary>
+    <description> 
+Monaco is a tool for deploying monitoring configuration to one or multiple Dynatrace Environments. Monaco can aslo update existing configurations in environments.
+
+The key features of Monaco are:
+
+* **Monitoring as Code**: Monitoring configuration is described using a high-level configuration syntax (JSON and YAML). This allows for configurations to be versioned and treated as you would any other code. Additionally, configuration can be shared and re-used.
+* **Change Automation**: Complex changesets can be applied to your configurations with minimal human interaction. This avoids many possible human errors.
+
+For more information, see the [introduction section](https://dynatrace-oss.github.io/dynatrace-monitoring-as-code/).
+    </description>
+  </metadata>
+  <files>
+
+    <file src="tools\**" target="tools" />
+
+  </files>
+</package>
