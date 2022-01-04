@@ -15,7 +15,7 @@
     <docsUrl>https://dynatrace-oss.github.io/dynatrace-monitoring-as-code/installation</docsUrl>
     <bugTrackerUrl>https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/dynatrace-oss/dynatrace-monitoring-as-code</projectSourceUrl>
-    <packageSourceUrl>https://github.com/cruzancaramele/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/CruzanCaramele/chocolatey-packages</packageSourceUrl>
     <tags>monaco</tags>
     <licenseUrl>https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
