@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v2
+      -
+        name: Choco pack
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: pack monaco\monaco.nuspec
+      -
+        name: Choco push
+        uses: crazy-max/ghaction-chocolatey@v1
+        env:
+          SUPER_SECRET: ${{ secrets.API_KEY }}
+        with:
+          args: push D:\a\chocolatey-packages\chocolatey-packages\monaco.1.6.0.nupkg --apikey "$env:SUPER_SECRET" --source "'https://chocolatey.org/'"
