@@ -22,6 +22,3 @@ $packageArgs = @{
 }
 
 Get-ChocolateyWebFile @packageArgs
-
-Remove-Item $toolsDir\*.exe -Exclude "monaco.exe" | Out-Null #del old vers
-Remove-Item $ENV:ChocolateyInstall\bin\monaco*.exe  | Out-Null #del old vers' shims
