@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>monaco</id>
-    <version>1.6.0</version>
+    <version>1.7.0</version>
     <owners>Hamza Yahaya</owners>
     <!-- ============================== -->
 
@@ -12,7 +12,7 @@
     <title>monaco</title>
     <authors>Dynatrace</authors>
     <projectUrl>https://dynatrace-oss.github.io/dynatrace-monitoring-as-code</projectUrl>
-    <docsUrl>https://dynatrace-oss.github.io/dynatrace-monitoring-as-code/installation</docsUrl>
+    <docsUrl>https://dynatrace-oss.github.io/dynatrace-monitoring-as-code</docsUrl>
     <bugTrackerUrl>https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/dynatrace-oss/dynatrace-monitoring-as-code</projectSourceUrl>
     <packageSourceUrl>https://github.com/CruzanCaramele/chocolatey-packages</packageSourceUrl>
