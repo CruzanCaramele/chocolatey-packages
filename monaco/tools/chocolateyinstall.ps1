@@ -4,8 +4,8 @@
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url         = 'https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/download/v1.8.0/monaco-windows-4.0-386.exe'
 $url64       = 'https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/releases/download/v1.8.0/monaco-windows-4.0-amd64.exe'
-$checksum    = 'fe23ddf84497d7c6dc3746d5d103840db4bddada3a85937a2cdba8edf97e7ee4'
-$checksum64  = 'a1e30f046d0b04dee85334c01475f898f36f83faf7bf481f1718f2f98be023e4'
+$checksum    = '0858B7E1BC50623D8743A320F5C6F155B6E00BC43EB8A0C3E46327F82CA09D80'
+$checksum64  = '1438AEA7B2CC1F25FEFB776850278A09CE115A63B0910356F5CE3DE896A3AC64'
 $PackageName = 'monaco.exe'
 
 $packageArgs = @{
