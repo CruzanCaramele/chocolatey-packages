@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>monaco</id>
-    <version>1.8.0</version>
+    <version>1.8.1</version>
     <owners>Hamza Yahaya</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>monaco</title>
-    <authors>Dynatrace</authors>
+    <authors>Dynatrace Open Source</authors>
     <projectUrl>https://dynatrace-oss.github.io/dynatrace-monitoring-as-code</projectUrl>
     <docsUrl>https://dynatrace-oss.github.io/dynatrace-monitoring-as-code</docsUrl>
     <bugTrackerUrl>https://github.com/dynatrace-oss/dynatrace-monitoring-as-code/issues</bugTrackerUrl>
